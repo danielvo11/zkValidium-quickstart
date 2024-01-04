@@ -494,7 +494,6 @@ run-bridge: ## Runs the native bridge
 .PHONY: run
 run: ## Runs a full node
 	$(RUNL1NETWORK)
-	$(RUNSETUPDACMOCKL1)
 	$(MAKE) run-db
 	sleep 2
 	$(RUNZKPROVER)
